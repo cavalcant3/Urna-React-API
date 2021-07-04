@@ -2,3 +2,6 @@
 Created with CodeSandbox
 
 APP React utilizando API com o objetivo de simular uma urna com votação de candidatos.
+
+
+[Kanban](https://github.com/GuilhermeSenna/Urna-React-API/projects/1)
