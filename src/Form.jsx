@@ -6,16 +6,15 @@ export default function Add() {
   return (
     <div>
       <form action="/action_page.php">
-        <label for="fname">First name:</label>
         <br />
         <div className="TextField">
-          <TextField type="text" id="fname" name="fname" value="John" />
+          <TextField id="filled-basic" label="First name" variant="filled" />
         </div>
         <br />
-        <label for="lname">Last name:</label>
+
         <br />
         <div className="TextField">
-          <TextField type="text" id="lname" name="lname" value="Doe" />
+          <TextField id="filled-basic" label="Last name" variant="filled" />
         </div>
         <br />
         <br />
@@ -25,7 +24,8 @@ export default function Add() {
         </Button>
         {/* você pode alternar a cor entre algumas opções,
          essa foi a que mais se destaca.
-         Podemos reaproveitar */}
+         Podemos reaproveitar. Enquanto não fazemos o crud irei deixar esse
+         botão sem ação. */}
       </form>
     </div>
   );
