@@ -1,8 +1,8 @@
 const express = require("express"),
   app = express(),
   port = process.env.PORT || 3000;
-mongoose = require("mongoose");
-const uri = "mongodb://localhost/ NONME DO BD";
+const mongoose = require("mongoose");
+const uri = "mongodb://localhost:3000/NAME BD";
 Candidate = require("./models/urnaModels"); // model loading here
 
 //mongoose instance connection url connection
